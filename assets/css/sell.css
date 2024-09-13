@@ -1,0 +1,46 @@
+@import url('index.css');
+
+/* Sell Page Specific Styles */
+.sell {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.sell h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.sell-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sell-form input,
+.sell-form textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.sell-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.sell-form button {
+  padding: 10px 20px;
+  background-color: #2ecc71; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sell-form button:hover {
+  background-color: #27ae60; /* Darker Green */
+}
